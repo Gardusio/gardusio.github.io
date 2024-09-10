@@ -1,2 +1,2 @@
-# Gardusio.github.io
-Pleased to meet you, you'll find stuff related to Fabio Barbieri in here.
+# This is Fabio Barbieri personal site
+Pleased to meet you, you'll find stuff related to me in here.
