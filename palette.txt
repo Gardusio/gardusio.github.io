@@ -1,0 +1,6 @@
+#160101 (dark background)
+#35767c (teal/blue-green)
+#a6a1a1 (light gray)
+#46c8bf (light cyan/green)
+#f6f5f5 (off-white)
+#27363c (dark blue-gray)
