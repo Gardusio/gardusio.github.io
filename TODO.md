@@ -1,10 +1,8 @@
 # Unordered todo list
-- add links to CV
--
+- responsiveness (couldn't think ahead of someone who will actually see this on mobile...)
 
 # What would be nice
 ...
-
 
 # Priority list
 ...
