@@ -1,11 +1,12 @@
 :root {
-    --text-color: #282828;
-    --text-highlight: #35767c;
+    --text-color: #0d1b2a;
+    --text-highlight: #0a369d;
+    --secondary-highlight: #16c172;
     --link-text: #35767c;
     --secondary-text-color: #5f6368;
     --border-color: #dadce0;
     --background-color: white;
-    --bg-dark: #160101;
+    --bg-dark: #0d1b2a;
 }
 
 body {
@@ -19,15 +20,14 @@ body {
     font-size: 1em;
     line-height: 1.4;
     color: var(--text-color);
-    margin: 80px auto;
-    padding: 20px;
+    margin: auto;
     max-width: 800px;
 }
 
 h1 {
     color: var(--text-highlight);
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.6em;
     margin-bottom: 10px;
     font-family: 'SUSE', sans-serif;
 }
@@ -56,12 +56,12 @@ h3 {
 }
 
 .contact-info {
-    margin: 30px 0;
     color: var(--text-color);
     display: flex;
     flex-direction: column;
     gap: 4px;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 a {
@@ -78,14 +78,14 @@ li {
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .date {
     color: var(--secondary-text-color);
     font-style: italic;
     margin: 0;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 .sub-text {
@@ -97,20 +97,18 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bg-dark);
-    padding: 16px 30px;
-    color: var(--background-color);
+    padding: 0 50px;
+    height: 100px;
+    /*
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+    */
+    position: sticky;
     font-family: 'SUSE', sans-serif;
 }
 
+
 .gradient-title {
-    background: linear-gradient(45deg, #dadce0, #fafafa);
+    background: linear-gradient(45deg, #0a0908, #0a369d, #16c172);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -119,8 +117,11 @@ p {
 
 #cv-button {
     border-radius: 100px;
-    background: #fafafa;
-    color: var(--link-text);
+    background: linear-gradient(45deg, #0a369d, #16c172);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     padding: 5px 20px;
     margin-top: -4px;
     font-size: 1em;
@@ -145,14 +146,17 @@ p {
 
 .navbar-links {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     font-size: 1.2em
 }
 
 .navbar-links a {
-    color: var(--background-color);
+    background: linear-gradient(45deg, #0a369d, #16c172);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .navbar-links a:hover {
